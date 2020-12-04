@@ -1,0 +1,247 @@
+/* mobile first */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url(colors.css);
+
+/* top menu start */
+
+#topnavbar {
+    padding: 1rem 0;
+    border-bottom: 1px solid gray ;
+    font-size: 12px;
+}
+
+#topnavbar > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#topnavbar #openinghours{
+    margin-left: 2rem;
+}
+
+#socialmedia > ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+#socialmedia > ul > li{
+    margin: 0 1rem;
+}
+
+#socialmedia > ul > li a{
+    color: #2BAAEC;
+}
+
+
+#socialmedia > ul > li a:hover {
+    color: rgb(20, 94, 20);
+}
+
+/* top menu finish */
+
+
+
+/* header part   start*/
+#logo-image {
+    width: 40px;
+    margin-right: 2%;
+}
+#color-logo {
+    color: #2BAAEC;
+}
+
+#logo-text {
+
+    font-size: 10px;
+}
+
+#navbarTogglerDemo02 a:hover{
+    background-color: lightblue;
+    color: red;
+}
+
+
+/* header part   finish*/
+
+#our-clinic{
+    background-color: #25E6C8; 
+    color: white;
+    border:#25E6C8 ;
+}
+#our-clinic:hover{
+    background-color: lightblue;
+    
+}
+
+
+/*first section start */
+#background-inherit{
+ 
+    background-color: inherit;
+    border: none;
+}
+#first-section-card {
+    margin: 5% 15%;
+    
+}
+
+#text-color{
+    color: #2BAAEC;
+}
+/*first section  finish*/
+
+/* secound section start */
+
+#green{
+    padding: 1px;
+    background-color: #25E6C8;
+}
+
+/* secound section finish */
+
+
+/* third section start */
+
+#image{
+    width: 50px;
+    
+
+}
+#image-box {
+    border-radius: 50%;
+    background-color: #25E6C8;
+    margin: 5% 25%;
+    padding: 10%;
+
+}
+
+
+/* third section finish */
+
+
+
+#border-card-box:hover {
+    border: lightblue 1px solid;
+}
+
+#list-group-bottons {
+    border: none;
+    padding-right: 10%;
+    font-size: 12px;
+}
+#list-group-bottons:hover {
+    color: red;
+    
+}
+
+
+
+/* boktid  */
+.grid-boka-tid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .grid-boka-tid>div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px ;
+  }
+
+  .booking2 button{
+     font-size: 20px;
+     float: left;
+     border-radius: 5px;
+     padding: auto 35px;
+  }
+  .booking2 button:hover{
+      background-color: paleturquoise;
+      border-color: lightblue;
+  }
+
+
+  #button-color{
+      font-size: 12px;
+      color: #08b8e9;
+  }
+
+  @media (max-width: 768px) {
+
+    .grid-boka-tid{
+     
+      
+      grid-template-rows: 100px 300px;
+       
+    }
+
+    
+  }
+  /* bokatid slut */
+
+ header{
+    margin: auto 10%;
+}
+
+
+
+  
+  .last-section{
+      margin-left:20%;
+  
+  }
+
+
+
+#sid-padding-section {
+    padding: 0 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #main--side, header{
+        margin:auto 4%;
+    }
+    
+}
+
+@media (max-width: 668px) {
+   
+
+    #main--side, header{
+        margin: auto ;
+    }
+    
+  
+.grid-last-section {
+
+    display: grid;
+    grid-template-columns: 1  2;
+    background-color: #2BAAEC;
+  }
+  
+  .last-section{
+      margin-left:20%;
+  
+    
+  }
+}
+
+
+
